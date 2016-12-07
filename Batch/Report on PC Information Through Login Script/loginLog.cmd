@@ -1,0 +1,2 @@
+@ECHO OFF
+ECHO %USERNAME%,%COMPUTERNAME%,%date%,%time%,LOGIN>> \\DC_IP_ADDRESS\NETLOGON\login_log.txt
